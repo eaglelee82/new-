@@ -1,6 +1,111 @@
-﻿###
+###
 {
   "sites": [
+    {
+    "key": "csp_Enlienli",
+    "name": "嗯哩嗯哩(爬虫)",
+    "type": 3,
+    "api": "csp_Enlienli",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1
+    },
+    {
+    "key": "csp_Aidi",
+    "name": "爱迪(爬虫)",
+    "type": 3,
+    "api": "csp_Aidi",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1
+    },
+{
+  "key": "csp_Auete",
+  "name": "Auete(爬虫)",
+  "type": 3,
+  "api": "csp_Auete",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 1
+},
+{
+  "key": "csp_Cokemv",
+  "name": "Cokemv(爬虫)",
+  "type": 3,
+  "api": "csp_Cokemv",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 1
+},
+{
+  "key": "csp_Buka",
+  "name": "真不卡(爬虫)",
+  "type": 3,
+  "api": "csp_Buka",
+  "searchable": 0,
+  "quickSearch": 0,
+  "filterable": 1
+},
+{
+  "key": "csp_Ysgc",
+  "name": "影视工厂(爬虫)",
+  "type": 3,
+  "api": "csp_Ysgc",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 1
+},
+{
+  "key": "csp_N0ys",
+  "name": "90影视(爬虫)",
+  "type": 3,
+  "api": "csp_N0ys",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 0
+},
+  {
+    "key": "csp_Nekk",
+    "name": "9E看看(爬虫)",
+    "type": 3,
+    "api": "csp_Nekk",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1
+  },
+  {
+    "key": "csp_EPangApp",
+    "name": "阿房影视(爬虫)",
+    "type": 3,
+    "api": "csp_EPangApp",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1
+  },
+      {
+                "key": "极品资源",
+                "name": "极品资源",
+                "type": 0,
+                "api": "https://www.jpysvip.net/api.php/provide/vod/at/xml/",
+                "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "香港剧",
+        "韩国剧",
+        "欧美剧",
+        "日本剧",
+        "台湾剧",
+        "泰国剧",
+        "综艺",
+        "动漫"
+                ]
+    },
     {
       "key": "快播云",
       "name": "快播云",
@@ -24,103 +129,6 @@
         "战争片",
         "纪录片"
       ]
-    },
-    {
-      "key": "afys_spider",
-      "name": "阿房影视",
-      "type": 2,
-      "api": "7gxke5P9eFZoVV",
-      "playUrl": "",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "jpys_spider",
-      "name": "极品影视",
-      "type": 2,
-      "api": "xZk2ejNzP8Gape",
-      "playUrl": "",
-      "searchable": 0,
-      "filterable": 1
-    },
-    {
-      "key": "mgys_spider",
-      "name": "暮光影视",
-      "type": 2,
-      "api": "vnEF7qPNzi6C6C",
-      "playUrl": "",
-      "quickSearch": 0
-    },
-    {
-      "key": "ysgc_spider",
-      "name": "影视工厂",
-      "type": 2,
-      "api": "XXjMEvL4jg66rQ",
-      "playUrl": "",
-      "quickSearch": 0
-    },
-    {
-      "key": "auete_spider",
-      "name": "Auete影视",
-      "type": 2,
-      "api": "eboTY5qAokEemZ",
-      "playUrl": "",
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "adys_spider",
-      "name": "爱迪影视",
-      "type": 2,
-      "api": "48YdXbyTkTe55r",
-      "playUrl": "",
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "hgys_spider",
-      "name": "HG影视",
-      "type": 2,
-      "api": "wkjskK5hA6Cxr7",
-      "playUrl": "",
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "zjdr_spider",
-      "name": "追剧达人",
-      "type": 2,
-      "api": "irB66BwzwhbL4r",
-      "playUrl": "",
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "zjm_spider",
-      "name": "追剧喵",
-      "type": 2,
-      "api": "KaxKyHhd9ErA9n",
-      "playUrl": "",
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "xysgc_spider",
-      "name": "新影视工厂",
-      "type": 2,
-      "api": "Gy35wr8J2YUrtC",
-      "playUrl": "",
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "kby_spider",
-      "name": "恐怖鸭",
-      "type": 2,
-      "api": "ZdZYGB9BcfXR6W",
-      "playUrl": "",
-      "quickSearch": 0,
-      "filterable": 1
     },
     {
       "key": "柚子资源",
@@ -203,7 +211,6 @@
         "港台剧",
         "日韩剧",
         "欧美剧",
-        "福利"
       ]
     },
     {
@@ -227,7 +234,7 @@
         "欧美剧",
         "微电影",
         "纪录片",
-        "伦理片",
+        "论理片",
         "冒险片",
         "悬疑片",
         "犯罪片",
@@ -298,8 +305,6 @@
         "日韩剧",
         "欧美剧",
         "东南亚剧",
-        "伦理",
-        "性感",
         "日本动漫",
         "纪录片",
         "国产动漫",
@@ -356,10 +361,22 @@
         "犯罪片",
         "其他片",
         "泰国剧",
-        "伦理片"
       ]
     }
   ],
+"parses": [
+  {
+    "name": "Json并发",
+    "type": 2,
+    "url": "Parallel"
+  },
+  {
+    "name": "Json轮询",
+    "type": 2,
+    "url": "Sequence"
+  }
+ 
+],
   "lives": [
     {
       "group": "自定义",
@@ -775,30 +792,6 @@
           ]
         },
         {
-          "name": "西藏卫视",
-          "urls": [
-            "http://183.207.248.71:80/cntv/live1/n-xizangstv/n-xizangstv"
-          ]
-        },
-        {
-          "name": "香港卫视",
-          "urls": [
-            "http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8"
-          ]
-        },
-        {
-          "name": "新疆兵团卫视",
-          "urls": [
-            "http://39.134.24.24/PLTV/88888888/224/3221225869/index.m3u8"
-          ]
-        },
-        {
-          "name": "新疆卫视",
-          "urls": [
-            "http://39.134.24.24/PLTV/88888888/224/3221225790/index.m3u8"
-          ]
-        },
-        {
           "name": "云南卫视",
           "urls": [
             "http://183.207.248.71:80/cntv/live1/n-yntv1/n-yntv1",
@@ -934,6 +927,7 @@
     "wasu",
     "bilibili"
   ],
+  "spider": "https://gitee.com/luobenji/luobenji/raw/master/custom_spider.jar",
   "parses": [
     {
       "name": "暮光解析",
